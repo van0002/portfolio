@@ -48,3 +48,28 @@ function validateForm() {
 function toggleTheme() {
     document.body.classList.toggle("dark");
 }
+function validateForm() {
+  let name = document.getElementById("name").value;
+  let email = document.getElementById("email").value;
+
+  if (name === "" || email === "") {
+    alert("All fields are required");
+    return false;
+  }
+
+  alert("Form submitted successfully");
+  return true;
+}
+function toggleTheme() {
+  document.body.classList.toggle("dark");
+  localStorage.setItem("theme", 
+    document.body.classList.contains("dark") ? "dark" : "light"
+  );
+}
+
+window.onload = () => {
+  if (localStorage.getItem("theme") === "dark") {
+    document.body.classList.add("dark");
+  }
+};
+
