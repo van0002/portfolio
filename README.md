@@ -1,8 +1,8 @@
 # Narendra
 a website about 
-# JavaScript Mini Project 🚀
+# JavaScript Project 🚀
 
-This is a beginner-friendly **JavaScript mini project** that demonstrates core concepts of JavaScript along with HTML and CSS.
+This is a beginner-friendly **JavaScript project** that demonstrates core concepts of JavaScript along with HTML and CSS.
 
 ## 🔥 Features
 
@@ -25,7 +25,7 @@ This is a beginner-friendly **JavaScript mini project** that demonstrates core c
 
 1. Clone the repository  
    ```bash
-   git clone https://github.com/your-username/js-mini-project.git
+   git clone https://github.com/van0002/js-project.git
 
 ---
 
