@@ -21,3 +21,20 @@ This is a beginner-friendly **JavaScript mini project** that demonstrates core c
 
 ## 📂 Project Structure
 
+## 🚀 How to Run the Project
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/your-username/js-mini-project.git
+
+---
+
+## 🔥 Extra Tip (Strong Impression)
+README me :
+
+```md
+## 📌 Future Improvements
+- LocalStorage for To-Do List
+- Better UI & Animations
+- Mobile Responsive Design
+
