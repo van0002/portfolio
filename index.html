@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>JavaScript Features Demo</h1>
+
+    <button onclick="showContent()">Show</button>
+    <button onclick="hideContent()">Hide</button>
+
+    <p id="text">Hello! This content can be shown or hidden.</p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+<img id="slider" src="img1.jpg" width="300">
+<br>
+<button onclick="prevImage()">Previous</button>
+<button onclick="nextImage()">Next</button>
+<h2>To-Do List</h2>
+<input type="text" id="task">
+<button onclick="addTask()">Add</button>
+
+<ul id="taskList"></ul>
+<h2>Contact Form</h2>
+<form onsubmit="return validateForm()">
+    <input type="text" id="name" placeholder="Name"><br><br>
+    <input type="email" id="email" placeholder="Email"><br><br>
+    <button type="submit">Submit</button>
+</form>
+<button onclick="toggleTheme()">Toggle Dark/Light</button>
